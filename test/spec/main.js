@@ -130,4 +130,26 @@ describe('The express-print-routes middleware', () => {
 
     })
 
+    it('should print anonymous functions', (done) => {
+
+        let app = express()
+
+        app.get('/users/:id', function (req,res) { res.status(200); res.end(); })
+
+        printRoutes(app, path.join(__dirname, '../results/anonymous.generated.txt'))
+
+        setTimeout(() => {
+
+            let expected = fs.readFileSync(path.join(__dirname, '../fixtures/anonymous.expected.txt'), 'utf8')
+            let generated = fs.readFileSync(path.join(__dirname, '../results/anonymous.generated.txt'), 'utf8')
+
+            expect(generated).to.eql(expected)
+
+            done()
+
+        }, 100)
+
+    })
+
+
 })

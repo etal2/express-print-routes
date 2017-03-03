@@ -1,0 +1,6 @@
+router                                                                                                         
+ ├── query                                         *                                                           
+ ├── expressInit                                   *                                                           
+ └── bound dispatch                                /users/:id                                                  GET
+      └── ./test/spec/main.js:137:55               /                                                           GET
+     
