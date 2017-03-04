@@ -134,7 +134,10 @@ describe('The express-print-routes middleware', () => {
 
         let app = express()
 
-        app.get('/users/:id', function (req,res) { res.status(200); res.end(); })
+        app.get('/users/:id', (req,res) => { res.status(200); res.end() })
+        // eslint-disable-next-line prefer-arrow-callback
+        app.get('/posts/:id', function (req,res) { res.status(200); res.end() })
+        app.get('/images/:id', function __images(req,res) { res.status(200); res.end() })
 
         printRoutes(app, path.join(__dirname, '../results/anonymous.generated.txt'))
 
