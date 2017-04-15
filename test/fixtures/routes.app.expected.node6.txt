@@ -54,7 +54,6 @@ router
  │   
  ├── __useUse                                      /^\/use\/?(?=\/|$)/                                         
  ├── router                                        /^\/routedWithRouter\/?(?=\/|$)/                            
- │   router                                                                                                    
  │    ├── bound dispatch                           *                                                           _ALL
  │    │    └── __routedStarAll                     /                                                           
  │    │   

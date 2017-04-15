@@ -1,0 +1,642 @@
+{
+    "name": "router",
+    "path": "",
+    "methods": [],
+    "routes": [
+        {
+            "name": "query",
+            "path": "*",
+            "methods": [],
+            "routes": []
+        },
+        {
+            "name": "expressInit",
+            "path": "*",
+            "methods": [],
+            "routes": []
+        },
+        {
+            "name": "bound dispatch",
+            "path": "*",
+            "methods": [
+                "acl",
+                "bind",
+                "checkout",
+                "connect",
+                "copy",
+                "delete",
+                "get",
+                "head",
+                "link",
+                "lock",
+                "m-search",
+                "merge",
+                "mkactivity",
+                "mkcalendar",
+                "mkcol",
+                "move",
+                "notify",
+                "options",
+                "patch",
+                "post",
+                "propfind",
+                "proppatch",
+                "purge",
+                "put",
+                "rebind",
+                "report",
+                "search",
+                "subscribe",
+                "trace",
+                "unbind",
+                "unlink",
+                "unlock",
+                "unsubscribe"
+            ],
+            "routes": [
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "acl"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "bind"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "checkout"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "connect"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "copy"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "delete"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "head"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "link"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "lock"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "m-search"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "merge"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "mkactivity"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "mkcalendar"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "mkcol"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "move"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "notify"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "options"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "patch"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "post"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "propfind"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "proppatch"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "purge"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "put"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "rebind"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "report"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "search"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "subscribe"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "trace"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "unbind"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "unlink"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "unlock"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__starAll",
+                    "path": "\/",
+                    "methods": [
+                        "unsubscribe"
+                    ],
+                    "routes": []
+                }
+            ]
+        },
+        {
+            "name": "bound dispatch",
+            "path": "\/",
+            "methods": [
+                "get"
+            ],
+            "routes": [
+                {
+                    "name": "__rootGet",
+                    "path": "\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": []
+                }
+            ]
+        },
+        {
+            "name": "bound dispatch",
+            "path": "\/test",
+            "methods": [
+                "get"
+            ],
+            "routes": [
+                {
+                    "name": "__testGet",
+                    "path": "\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": []
+                }
+            ]
+        },
+        {
+            "name": "bound dispatch",
+            "path": "\/test\/:testId",
+            "methods": [
+                "post"
+            ],
+            "routes": [
+                {
+                    "name": "__testParamPost",
+                    "path": "\/",
+                    "methods": [
+                        "post"
+                    ],
+                    "routes": []
+                }
+            ]
+        },
+        {
+            "name": "bound dispatch",
+            "path": "\/^\\\/spa($|\\\/)\/",
+            "methods": [
+                "get"
+            ],
+            "routes": [
+                {
+                    "name": "__spaRegexGet",
+                    "path": "\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": []
+                }
+            ]
+        },
+        {
+            "name": "bound dispatch",
+            "path": "\/chained",
+            "methods": [
+                "get"
+            ],
+            "routes": [
+                {
+                    "name": "__chainedGet1",
+                    "path": "\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__chainedGet2",
+                    "path": "\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": []
+                }
+            ]
+        },
+        {
+            "name": "__useUse",
+            "path": "\/^\\\/use\\\/?(?=\\\/|$)\/",
+            "methods": [],
+            "routes": []
+        },
+        {
+            "name": "router",
+            "path": "\/^\\\/routedWithRouter\\\/?(?=\\\/|$)\/",
+            "methods": [],
+            "routes": [
+                {
+                    "name": "bound dispatch",
+                    "path": "*",
+                    "methods": [
+                        "_all"
+                    ],
+                    "routes": [
+                        {
+                            "name": "__routedStarAll",
+                            "path": "\/",
+                            "methods": [],
+                            "routes": []
+                        }
+                    ]
+                },
+                {
+                    "name": "bound dispatch",
+                    "path": "\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": [
+                        {
+                            "name": "__routedRootGet",
+                            "path": "\/",
+                            "methods": [
+                                "get"
+                            ],
+                            "routes": []
+                        }
+                    ]
+                },
+                {
+                    "name": "bound dispatch",
+                    "path": "\/test",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": [
+                        {
+                            "name": "__routedTestGet",
+                            "path": "\/",
+                            "methods": [
+                                "get"
+                            ],
+                            "routes": []
+                        }
+                    ]
+                },
+                {
+                    "name": "bound dispatch",
+                    "path": "\/test\/:testId",
+                    "methods": [
+                        "post"
+                    ],
+                    "routes": [
+                        {
+                            "name": "__routedTestParamPost",
+                            "path": "\/",
+                            "methods": [
+                                "post"
+                            ],
+                            "routes": []
+                        }
+                    ]
+                },
+                {
+                    "name": "bound dispatch",
+                    "path": "\/^\\\/spa($|\\\/)\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": [
+                        {
+                            "name": "__routedSpaRegexGet",
+                            "path": "\/",
+                            "methods": [
+                                "get"
+                            ],
+                            "routes": []
+                        }
+                    ]
+                },
+                {
+                    "name": "bound dispatch",
+                    "path": "\/chained",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": [
+                        {
+                            "name": "__routedChainedGet1",
+                            "path": "\/",
+                            "methods": [
+                                "get"
+                            ],
+                            "routes": []
+                        },
+                        {
+                            "name": "__routedChainedGet2",
+                            "path": "\/",
+                            "methods": [
+                                "get"
+                            ],
+                            "routes": []
+                        }
+                    ]
+                },
+                {
+                    "name": "__routedUseUse",
+                    "path": "\/^\\\/use\\\/?(?=\\\/|$)\/",
+                    "methods": [],
+                    "routes": []
+                },
+                {
+                    "name": "bound dispatch",
+                    "path": "\/routedWithDotRoute",
+                    "methods": [
+                        "_all",
+                        "get"
+                    ],
+                    "routes": [
+                        {
+                            "name": "__routedAll",
+                            "path": "\/",
+                            "methods": [],
+                            "routes": []
+                        },
+                        {
+                            "name": "__routedChainedGet1",
+                            "path": "\/",
+                            "methods": [
+                                "get"
+                            ],
+                            "routes": []
+                        },
+                        {
+                            "name": "__routedChainedGet2",
+                            "path": "\/",
+                            "methods": [
+                                "get"
+                            ],
+                            "routes": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "bound dispatch",
+            "path": "\/routedWithDotRoute",
+            "methods": [
+                "_all",
+                "get"
+            ],
+            "routes": [
+                {
+                    "name": "__routedAll",
+                    "path": "\/",
+                    "methods": [],
+                    "routes": []
+                },
+                {
+                    "name": "__routedChainedGet1",
+                    "path": "\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__routedChainedGet2",
+                    "path": "\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": []
+                }
+            ]
+        },
+        {
+            "name": "bound dispatch",
+            "path": "\/^\\\/routedWithDotRouteAndRegex($|\\\/)\/",
+            "methods": [
+                "get",
+                "post"
+            ],
+            "routes": [
+                {
+                    "name": "__routedGet",
+                    "path": "\/",
+                    "methods": [
+                        "get"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__routedChainedPost1",
+                    "path": "\/",
+                    "methods": [
+                        "post"
+                    ],
+                    "routes": []
+                },
+                {
+                    "name": "__routedChainedPost2",
+                    "path": "\/",
+                    "methods": [
+                        "post"
+                    ],
+                    "routes": []
+                }
+            ]
+        }
+    ]
+}
