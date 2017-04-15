@@ -57,7 +57,9 @@ describe('The express-print-routes middleware', () => {
                 return process.versions.node.split('.')[0]
             }
 
-            let expected = fs.readFileSync(path.join(__dirname, `../fixtures/routes.app.expected.node${ getNodeVersionMajor() }.txt`), 'utf8')
+            let nodever = getNodeVersionMajor() > 4 ? 4 : 6
+
+            let expected = fs.readFileSync(path.join(__dirname, `../fixtures/routes.app.expected.node${ nodever }.txt`), 'utf8')
             let generated = fs.readFileSync(path.join(__dirname, '../results/routes.app.generated.txt'), 'utf8')
 
             expect(generated).to.eql(expected)
