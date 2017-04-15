@@ -17,7 +17,6 @@ router
  ├── logger                           *                                                           
  ├── hpp                              *                                                           
  ├── router                           /^\/api\/?(?=\/|$)/                                         
- │   router                                                                                                    
  │    ├── bound dispatch              /users/:id             GET
  │    │    └── __getUser              /                      GET
  │    │   
@@ -84,6 +83,26 @@ app.use(function __helloWorld(req, res, next) { // <-- '__helloWorld' will be pr
 ### Why printing to a file and not just to the console?
 
 It is good practice to commit the generated file to your version control system. This way you can review all changes like added / renamed / removed routes and added / removed middlewares.
+
+### Printing to console
+
+It is possible to use the module without providing a filename and using the returned value as you please. By default the returned value is a json representation of the middleware routing tree, it is possible to specify format='text' to get a printable string representation and pass it on to the console or logger.
+
+``` js
+var app = express()
+
+// Register all your routes / middlewares
+
+
+if (process.env.NODE_ENV === 'development') { // Only in dev environment
+
+    // Invoke express-print-routes with format: text
+    var text = require('express-print-routes')(app, { format: 'text' })
+    // Print results to console
+    console.log(text)
+    
+}
+```
 
 ## Contributing
 
