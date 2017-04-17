@@ -1,22 +1,26 @@
 {
     "name": "app",
+    "srcline": null,
     "path": "",
     "methods": [],
     "routes": [
         {
             "name": "query",
+            "srcline": null,
             "path": "*",
             "methods": [],
             "routes": []
         },
         {
             "name": "expressInit",
+            "srcline": null,
             "path": "*",
             "methods": [],
             "routes": []
         },
         {
             "name": "bound dispatch",
+            "srcline": null,
             "path": "*",
             "methods": [
                 "acl",
@@ -56,6 +60,7 @@
             "routes": [
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "acl"
@@ -64,6 +69,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "bind"
@@ -72,6 +78,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "checkout"
@@ -80,6 +87,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "connect"
@@ -88,6 +96,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "copy"
@@ -96,6 +105,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "delete"
@@ -104,6 +114,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "get"
@@ -112,6 +123,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "head"
@@ -120,6 +132,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "link"
@@ -128,6 +141,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "lock"
@@ -136,6 +150,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "m-search"
@@ -144,6 +159,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "merge"
@@ -152,6 +168,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "mkactivity"
@@ -160,6 +177,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "mkcalendar"
@@ -168,6 +186,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "mkcol"
@@ -176,6 +195,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "move"
@@ -184,6 +204,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "notify"
@@ -192,6 +213,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "options"
@@ -200,6 +222,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "patch"
@@ -208,6 +231,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "post"
@@ -216,6 +240,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "propfind"
@@ -224,6 +249,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "proppatch"
@@ -232,6 +258,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "purge"
@@ -240,6 +267,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "put"
@@ -248,6 +276,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "rebind"
@@ -256,6 +285,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "report"
@@ -264,6 +294,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "search"
@@ -272,6 +303,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "subscribe"
@@ -280,6 +312,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "trace"
@@ -288,6 +321,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "unbind"
@@ -296,6 +330,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "unlink"
@@ -304,6 +339,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "unlock"
@@ -312,6 +348,7 @@
                 },
                 {
                     "name": "__starAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "unsubscribe"
@@ -322,6 +359,7 @@
         },
         {
             "name": "bound dispatch",
+            "srcline": null,
             "path": "\/",
             "methods": [
                 "get"
@@ -329,6 +367,7 @@
             "routes": [
                 {
                     "name": "__rootGet",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "get"
@@ -339,6 +378,7 @@
         },
         {
             "name": "bound dispatch",
+            "srcline": null,
             "path": "\/test",
             "methods": [
                 "get"
@@ -346,6 +386,7 @@
             "routes": [
                 {
                     "name": "__testGet",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "get"
@@ -356,6 +397,7 @@
         },
         {
             "name": "bound dispatch",
+            "srcline": null,
             "path": "\/test\/:testId",
             "methods": [
                 "post"
@@ -363,6 +405,7 @@
             "routes": [
                 {
                     "name": "__testParamPost",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "post"
@@ -373,6 +416,7 @@
         },
         {
             "name": "bound dispatch",
+            "srcline": null,
             "path": "\/^\\\/spa($|\\\/)\/",
             "methods": [
                 "get"
@@ -380,6 +424,7 @@
             "routes": [
                 {
                     "name": "__spaRegexGet",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "get"
@@ -390,6 +435,7 @@
         },
         {
             "name": "bound dispatch",
+            "srcline": null,
             "path": "\/chained",
             "methods": [
                 "get"
@@ -397,6 +443,7 @@
             "routes": [
                 {
                     "name": "__chainedGet1",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "get"
@@ -405,6 +452,7 @@
                 },
                 {
                     "name": "__chainedGet2",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "get"
@@ -415,17 +463,20 @@
         },
         {
             "name": "__useUse",
+            "srcline": null,
             "path": "\/^\\\/use\\\/?(?=\\\/|$)\/",
             "methods": [],
             "routes": []
         },
         {
             "name": "router",
+            "srcline": null,
             "path": "\/^\\\/routedWithRouter\\\/?(?=\\\/|$)\/",
             "methods": [],
             "routes": [
                 {
                     "name": "bound dispatch",
+                    "srcline": null,
                     "path": "*",
                     "methods": [
                         "_all"
@@ -433,6 +484,7 @@
                     "routes": [
                         {
                             "name": "__routedStarAll",
+                            "srcline": null,
                             "path": "\/",
                             "methods": [],
                             "routes": []
@@ -441,6 +493,7 @@
                 },
                 {
                     "name": "bound dispatch",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "get"
@@ -448,6 +501,7 @@
                     "routes": [
                         {
                             "name": "__routedRootGet",
+                            "srcline": null,
                             "path": "\/",
                             "methods": [
                                 "get"
@@ -458,6 +512,7 @@
                 },
                 {
                     "name": "bound dispatch",
+                    "srcline": null,
                     "path": "\/test",
                     "methods": [
                         "get"
@@ -465,6 +520,7 @@
                     "routes": [
                         {
                             "name": "__routedTestGet",
+                            "srcline": null,
                             "path": "\/",
                             "methods": [
                                 "get"
@@ -475,6 +531,7 @@
                 },
                 {
                     "name": "bound dispatch",
+                    "srcline": null,
                     "path": "\/test\/:testId",
                     "methods": [
                         "post"
@@ -482,6 +539,7 @@
                     "routes": [
                         {
                             "name": "__routedTestParamPost",
+                            "srcline": null,
                             "path": "\/",
                             "methods": [
                                 "post"
@@ -492,6 +550,7 @@
                 },
                 {
                     "name": "bound dispatch",
+                    "srcline": null,
                     "path": "\/^\\\/spa($|\\\/)\/",
                     "methods": [
                         "get"
@@ -499,6 +558,7 @@
                     "routes": [
                         {
                             "name": "__routedSpaRegexGet",
+                            "srcline": null,
                             "path": "\/",
                             "methods": [
                                 "get"
@@ -509,6 +569,7 @@
                 },
                 {
                     "name": "bound dispatch",
+                    "srcline": null,
                     "path": "\/chained",
                     "methods": [
                         "get"
@@ -516,6 +577,7 @@
                     "routes": [
                         {
                             "name": "__routedChainedGet1",
+                            "srcline": null,
                             "path": "\/",
                             "methods": [
                                 "get"
@@ -524,6 +586,7 @@
                         },
                         {
                             "name": "__routedChainedGet2",
+                            "srcline": null,
                             "path": "\/",
                             "methods": [
                                 "get"
@@ -534,12 +597,14 @@
                 },
                 {
                     "name": "__routedUseUse",
+                    "srcline": null,
                     "path": "\/^\\\/use\\\/?(?=\\\/|$)\/",
                     "methods": [],
                     "routes": []
                 },
                 {
                     "name": "bound dispatch",
+                    "srcline": null,
                     "path": "\/routedWithDotRoute",
                     "methods": [
                         "_all",
@@ -548,12 +613,14 @@
                     "routes": [
                         {
                             "name": "__routedAll",
+                            "srcline": null,
                             "path": "\/",
                             "methods": [],
                             "routes": []
                         },
                         {
                             "name": "__routedChainedGet1",
+                            "srcline": null,
                             "path": "\/",
                             "methods": [
                                 "get"
@@ -562,6 +629,7 @@
                         },
                         {
                             "name": "__routedChainedGet2",
+                            "srcline": null,
                             "path": "\/",
                             "methods": [
                                 "get"
@@ -574,6 +642,7 @@
         },
         {
             "name": "bound dispatch",
+            "srcline": null,
             "path": "\/routedWithDotRoute",
             "methods": [
                 "_all",
@@ -582,12 +651,14 @@
             "routes": [
                 {
                     "name": "__routedAll",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [],
                     "routes": []
                 },
                 {
                     "name": "__routedChainedGet1",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "get"
@@ -596,6 +667,7 @@
                 },
                 {
                     "name": "__routedChainedGet2",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "get"
@@ -606,6 +678,7 @@
         },
         {
             "name": "bound dispatch",
+            "srcline": null,
             "path": "\/^\\\/routedWithDotRouteAndRegex($|\\\/)\/",
             "methods": [
                 "get",
@@ -614,6 +687,7 @@
             "routes": [
                 {
                     "name": "__routedGet",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "get"
@@ -622,6 +696,7 @@
                 },
                 {
                     "name": "__routedChainedPost1",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "post"
@@ -630,6 +705,7 @@
                 },
                 {
                     "name": "__routedChainedPost2",
+                    "srcline": null,
                     "path": "\/",
                     "methods": [
                         "post"
