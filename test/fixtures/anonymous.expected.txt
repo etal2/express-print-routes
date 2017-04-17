@@ -1,0 +1,12 @@
+app                                                                                                            
+ ├── query                                         *                                                           
+ ├── expressInit                                   *                                                           
+ ├── bound dispatch                                /users/:id                                                  GET
+ │    └── app.get (./test/spec/main.js:138:49)     /                                                           GET
+ │   
+ ├── bound dispatch                                /posts/:id                                                  GET
+ │    └── ./test/spec/main.js:140:55               /                                                           GET
+ │   
+ └── bound dispatch                                /images/:id                                                 GET
+      └── __images                                 /                                                           GET
+     

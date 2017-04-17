@@ -85,8 +85,7 @@ describe('The express-print-routes middleware', () => {
             .all(function __routedAll() {})
             .get(function __routedChainedGet1() {}, function __routedChainedGet2() {})
 
-        // FIXME: printRoutes should take router directly
-        printRoutes({ _router: router }, path.join(__dirname, '../results/routes.router.generated.txt'))
+        printRoutes(router, path.join(__dirname, '../results/routes.router.generated.txt'))
 
         setTimeout(() => {
 
@@ -131,5 +130,21 @@ describe('The express-print-routes middleware', () => {
         }, 100)
 
     })
+
+    it('should print anonymous functions', () => {
+
+        let app = express()
+
+        app.get('/users/:id', (req,res) => { res.status(200); res.end() })
+        // eslint-disable-next-line prefer-arrow-callback
+        app.get('/posts/:id', function (req,res) { res.status(200); res.end() })
+        app.get('/images/:id', function __images(req,res) { res.status(200); res.end() })
+
+        let results = printRoutes(app, { format: 'text' , lineNumbers: true})
+        let expected = fs.readFileSync(path.join(__dirname, '../fixtures/anonymous.expected.txt'), 'utf8')
+        
+        expect(results).to.eql(expected)
+    })
+
 
 })
