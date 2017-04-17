@@ -85,7 +85,7 @@ describe('The express-print-routes middleware', () => {
             .all(function __routedAll() {})
             .get(function __routedChainedGet1() {}, function __routedChainedGet2() {})
 
-        printRoutes({ _router: router }, path.join(__dirname, '../results/routes.router.generated.txt'))
+        printRoutes(router, path.join(__dirname, '../results/routes.router.generated.txt'))
 
         setTimeout(() => {
 
@@ -131,7 +131,7 @@ describe('The express-print-routes middleware', () => {
 
     })
 
-    it('should print anonymous functions', (done) => {
+    it('should print anonymous functions', () => {
 
         let app = express()
 
@@ -140,19 +140,10 @@ describe('The express-print-routes middleware', () => {
         app.get('/posts/:id', function (req,res) { res.status(200); res.end() })
         app.get('/images/:id', function __images(req,res) { res.status(200); res.end() })
 
-        printRoutes(app, path.join(__dirname, '../results/anonymous.generated.txt'))
-
-        setTimeout(() => {
-
-            let expected = fs.readFileSync(path.join(__dirname, '../fixtures/anonymous.expected.txt'), 'utf8')
-            let generated = fs.readFileSync(path.join(__dirname, '../results/anonymous.generated.txt'), 'utf8')
-
-            expect(generated).to.eql(expected)
-
-            done()
-
-        }, 100)
-
+        let results = printRoutes(app, { format: 'text' , lineNumbers: true})
+        let expected = fs.readFileSync(path.join(__dirname, '../fixtures/anonymous.expected.txt'), 'utf8')
+        
+        expect(results).to.eql(expected)
     })
 
 

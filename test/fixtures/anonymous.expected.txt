@@ -1,4 +1,4 @@
-router                                                                                                         
+app                                                                                                            
  ├── query                                         *                                                           
  ├── expressInit                                   *                                                           
  ├── bound dispatch                                /users/:id                                                  GET
